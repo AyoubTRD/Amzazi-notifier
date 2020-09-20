@@ -18,7 +18,7 @@ class Bot:
         email_input = self.driver.find_element_by_css_selector('input#email')
         password_input = self.driver.find_element_by_css_selector('input#pass')
         email_input.send_keys('trd.ayoub2004@gmail.com')
-        password_input.send_keys('ayoubtrd04')
+        password_input.send_keys('ayoubTRD04')
         password_input.send_keys(Keys.RETURN)
         sleep(4)
 
